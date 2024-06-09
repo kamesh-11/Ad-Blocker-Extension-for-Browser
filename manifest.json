@@ -1,0 +1,10 @@
+{
+    "name": "Adblocker-Miniproject", 
+    "description": "(Miniproject for 6th Sem) An adblocker extension that effectively blocks ads in website to improve user experience and increase loading speed ",
+    "manifest_version": 2,
+    "version": "1.11", 
+    "background": {
+        "scripts": ["blockedsites_v2.js", "block.js"]
+    },
+    "permissions": ["webRequest", "webRequestBlocking", "http://*/", "https://*/"]
+}
